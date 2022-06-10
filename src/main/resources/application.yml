@@ -1,0 +1,10 @@
+server:
+  port: 8080
+
+app:
+  docker:
+    host: 'tcp://localhost:2376'
+    max-connections: 100
+    timeouts:
+      connection-timeout: 45
+      response-timeout: 45
